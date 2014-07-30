@@ -5,7 +5,6 @@ In order to be considered for the Android position, you mush complete the follow
 *Note: This task should take no longer than 1-2 hours at the most.*
 
 
-
 ### Prerequisites
 
 - Please note that this will require some basic [Java](http://heather.cs.ucdavis.edu/~matloff/Java/JavaIntro.html) and [Android](http://d.android.com) knowledge. 
