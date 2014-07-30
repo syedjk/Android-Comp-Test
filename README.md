@@ -19,7 +19,7 @@ In order to be considered for the Android position, you mush complete the follow
 2. Create a *source* folder to contain your code. 
 3. In the *source* directory, please create an Android app that accomplishes the following:
 	- Connect to the [Github API](http://developer.github.com/)
-	- Find the [rails/rails](http://github.com/rails/rails) repository
+	- Find the [square/retrofit](http://github.com/square/retrofit) repository
 	- Find the most recent commits (choose at least 25 or more of the commits)
 	- Create a ListView that groups the recent commits by author in a custom view. 
 	- [Click here](example.jpg) for a screenshot mock up of what the final product should look like
