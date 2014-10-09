@@ -1,6 +1,13 @@
 package com.sjktech.comptest;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Map;
+
+import org.kohsuke.github.GHOrganization;
+import org.kohsuke.github.GHTeam;
+import org.kohsuke.github.GitHub;
+
 import android.support.v7.app.ActionBarActivity;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -19,17 +26,14 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
         list = (ListView)findViewById(R.id.listViewGit);
 		listDosesArray.clear();
-		
-		for(int i =0; i< 18; i++){
+
+		for(int i =0; i< 30; i++){
 			ListModelGit git = new ListModelGit();
 			git.setCommitName("Name 1");
 			git.setCommitVal("32");
 			git.setCommitMessage("This is a test message");
-			
-			
 			listDosesArray.add(git);
 		}
 		
